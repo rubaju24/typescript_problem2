@@ -1,0 +1,14 @@
+{
+  "name": "trappingrainwater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "TrappingRainWater": " tsc && node ./dist/TrappingRainWater.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
