@@ -1,0 +1,2 @@
+# typescript_problem2
+TrappingRainWater
