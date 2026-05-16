@@ -24,4 +24,4 @@ const trapRainWater = (heights: number[]): number => {
 
   return totalWater;
 };
-console.log(trapRainWater([3, 0, 1, 0, 0, 2]));
+console.log(trapRainWater([3, 0, 1, 0, 4, 0, 2]));
