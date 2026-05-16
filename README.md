@@ -179,24 +179,6 @@ Output: 5
 Input: [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 Output: 6
 
-## Visualization
-
-For [3,0,1,0,4,0,2]:
-
-Heights: █ ░ █ ░ █ ░ █
-Index: 0 1 2 3 4 5 6
-Bar: █ █ █
-█ █ █
-█ █ █
-█ ░ █ ░ █
-█ ░ █ ░ █ ░
-█ ░ █ █ █ ░ █
-█ ░ █ █ █ ░ █
-█ █ █ █ █ ░ █
-
-Water: ~ ~ ~ ~ ~ ~ ~
-0 3 2 3 0 2 0
-
 ## Key Insight
 
 Water trapped at any position depends on the minimum of the maximum heights on left and right sides, minus the current bar height.
